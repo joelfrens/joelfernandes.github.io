@@ -63,3 +63,8 @@ with
 ```
 
 The build/tailwind.css file will contain all the built css classes which you can include in your html using the <link> tag
+
+
+## VS Code Tailwindcss intellisense
+
+https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
