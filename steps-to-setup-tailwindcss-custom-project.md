@@ -64,6 +64,28 @@ with
 
 The build/tailwind.css file will contain all the built css classes which you can include in your html using the <link> tag
 
+### Complete package.json file
+
+```
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "postcss public/assets/css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.0.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.8.13"
+  }
+}
+```
 
 ## VS Code Tailwindcss intellisense
 
